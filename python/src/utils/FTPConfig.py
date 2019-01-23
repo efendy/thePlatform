@@ -1,4 +1,4 @@
-from src.utils.FileManager import FileManager
+from utils.FileManager import FileManager
 from configparser import ConfigParser
 
 

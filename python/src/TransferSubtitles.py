@@ -3,8 +3,8 @@
 #
 import os
 import ftplib
-from src.utils.FileManager import FileManager
-from src.utils.FTPConfig import FTPConfig
+from utils.FileManager import FileManager
+from utils.FTPConfig import FTPConfig
 # from urllib import request
 import requests
 import urllib.parse

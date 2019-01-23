@@ -5,8 +5,8 @@ import os
 import ftplib
 from xml.dom import minidom
 from shutil import copyfile
-from src.utils.FileManager import FileManager
-from src.utils.FTPConfig import FTPConfig
+from utils.FileManager import FileManager
+from utils.FTPConfig import FTPConfig
 
 ROOT = os.path.realpath(__file__).split("/src/")[0]
 SCRIPT_NAME = os.path.basename(__file__).split(".")[0]
