@@ -1,0 +1,12 @@
+824785475942,rsastatic.upload.akamai.com,/FoxPlus_Asia_DP/145/743/YA10398672ID__576684.vtt,id
+824785475942,rsastatic.upload.akamai.com,/FoxPlus_Asia_DP/145/743/YA1039867261__531169.vtt,ms
+824785475942,rsastatic.upload.akamai.com,/FoxPlus_Asia_DP/145/743/YA10398672CT__072559.vtt,zh
+824785475942,rsastatic.upload.akamai.com,/FoxPlus_Asia_DP/145/743/YA1039867291__295758.vtt,zh-Hans
+824785475942,rsastatic.upload.akamai.com,/FoxPlus_Asia_DP/145/743/YA10398672TH__129822.vtt,th
+824785475942,rsastatic.upload.akamai.com,/FoxPlus_Asia_DP/145/743/YA1039867246__598602.vtt,vi
+824784963654,rsastatic.upload.akamai.com,/FoxPlus_Asia_DP/145/243/YA1039925591__207764.vtt,zh-Hans
+824784963654,rsastatic.upload.akamai.com,/FoxPlus_Asia_DP/145/243/YA10399255ID__253628.vtt,id
+824784963654,rsastatic.upload.akamai.com,/FoxPlus_Asia_DP/145/243/YA1039925561__300377.vtt,ms
+824784963654,rsastatic.upload.akamai.com,/FoxPlus_Asia_DP/145/243/YA10399255TH__394382.vtt,th
+824784963654,rsastatic.upload.akamai.com,/FoxPlus_Asia_DP/145/243/YA1039925546__034018.vtt,vi
+824784963654,rsastatic.upload.akamai.com,/FoxPlus_Asia_DP/145/243/YA10399255CT__385750.vtt,zh
