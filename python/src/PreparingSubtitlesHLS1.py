@@ -255,15 +255,15 @@ def path_form(first, *entries):
 # folder = "00003-00003" # test
 folder = "00001-01000"
 instance = PreparingSubtitlesHLS1(UNIQUE_RUN_ID+"/"+folder)
-instance.run(ROOT+"/in/DownloadStorageFiles/"+folder+"/mediaIds-valid-idonly.txt",
+instance.run(ROOT+"/in/DownloadStorageFiles/"+folder+"/mediaIds-valid-idonly.final.txt",
              ROOT+"/out/DownloadStorageFiles/"+UNIQUE_RUN_ID+"/")
 # folder = "01001-02000"
 # instance = PreparingSubtitlesHLS1(UNIQUE_RUN_ID+"/"+folder)
-# instance.run(ROOT+"/in/DownloadStorageFiles/"+folder+"/mediaIds-valid-idonly.txt",
+# instance.run(ROOT+"/in/DownloadStorageFiles/"+folder+"/mediaIds-valid-idonly.final.txt",
 #              ROOT+"/out/DownloadStorageFiles/"+UNIQUE_RUN_ID+"/")
 # folder = "02001-03000"
 # instance = PreparingSubtitlesHLS1(UNIQUE_RUN_ID+"/"+folder)
-# instance.run(ROOT+"/in/DownloadStorageFiles/"+folder+"/mediaIds-valid-idonly.txt",
+# instance.run(ROOT+"/in/DownloadStorageFiles/"+folder+"/mediaIds-valid-idonly.final.txt",
 #              ROOT+"/out/DownloadStorageFiles/"+UNIQUE_RUN_ID+"/")
 
 exit(0)

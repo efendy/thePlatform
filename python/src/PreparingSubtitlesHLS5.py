@@ -254,15 +254,15 @@ def path_form(first, *entries):
 
 folder = "12001-13000"
 instance = PreparingSubtitlesHLS5(UNIQUE_RUN_ID+"/"+folder)
-instance.run(ROOT+"/in/DownloadStorageFiles/"+folder+"/mediaIds-valid-idonly.txt",
+instance.run(ROOT+"/in/DownloadStorageFiles/"+folder+"/mediaIds-valid-idonly.final.txt",
              ROOT+"/out/DownloadStorageFiles/"+UNIQUE_RUN_ID+"/")
 # folder = "13001-14000"
 # instance = PreparingSubtitlesHLS5(UNIQUE_RUN_ID+"/"+folder)
-# instance.run(ROOT+"/in/DownloadStorageFiles/"+folder+"/mediaIds-valid-idonly.txt",
+# instance.run(ROOT+"/in/DownloadStorageFiles/"+folder+"/mediaIds-valid-idonly.final.txt",
 #              ROOT+"/out/DownloadStorageFiles/"+UNIQUE_RUN_ID+"/")
 # folder = "14001-14355"
 # instance = PreparingSubtitlesHLS5(UNIQUE_RUN_ID+"/"+folder)
-# instance.run(ROOT+"/in/DownloadStorageFiles/"+folder+"/mediaIds-valid-idonly.txt",
+# instance.run(ROOT+"/in/DownloadStorageFiles/"+folder+"/mediaIds-valid-idonly.final.txt",
 #              ROOT+"/out/DownloadStorageFiles/"+UNIQUE_RUN_ID+"/")
 
 exit(0)
