@@ -11,7 +11,7 @@ UNIQUE_RUN_ID = "caf1aeb2-52b0-47d8-b37d-5a7f39f4da59"
 FILE_ERROR_OUT = SCRIPT_NAME + ".error.txt"
 
 
-class PreparingSubtitlesHLS2:
+class PreparingSubtitlesHLS1:
     file_manager = None
     ftp_config = None
     ftp = None
@@ -252,16 +252,17 @@ def path_form(first, *entries):
 
     return '/'.join(final_entries)
 
-folder = "03001-04000"
-instance = PreparingSubtitlesHLS2(UNIQUE_RUN_ID+"/"+folder)
+# folder = "00003-00003" # test
+folder = "00001-01000"
+instance = PreparingSubtitlesHLS1(UNIQUE_RUN_ID+"/"+folder)
 instance.run(ROOT+"/in/DownloadStorageFiles/"+folder+"/mediaIds-valid-idonly.txt",
              ROOT+"/out/DownloadStorageFiles/"+UNIQUE_RUN_ID+"/")
-# folder = "04001-05000"
-# instance = PreparingSubtitlesHLS2(UNIQUE_RUN_ID+"/"+folder)
+# folder = "01001-02000"
+# instance = PreparingSubtitlesHLS1(UNIQUE_RUN_ID+"/"+folder)
 # instance.run(ROOT+"/in/DownloadStorageFiles/"+folder+"/mediaIds-valid-idonly.txt",
 #              ROOT+"/out/DownloadStorageFiles/"+UNIQUE_RUN_ID+"/")
-# folder = "05001-06000"
-# instance = PreparingSubtitlesHLS2(UNIQUE_RUN_ID+"/"+folder)
+# folder = "02001-03000"
+# instance = PreparingSubtitlesHLS1(UNIQUE_RUN_ID+"/"+folder)
 # instance.run(ROOT+"/in/DownloadStorageFiles/"+folder+"/mediaIds-valid-idonly.txt",
 #              ROOT+"/out/DownloadStorageFiles/"+UNIQUE_RUN_ID+"/")
 
